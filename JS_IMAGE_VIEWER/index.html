@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"
+      type="text/javascript"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Images</title>
+  </head>
+  <body>
+    <p class="allbtn">
+      <!-- button for image zoom in or zoom out -->
+      <a id="zoomin">Zoom In-</a>
+      <a id="zoomout">Zoom Out-</a>
+
+      <!-- button for next and prev and rotate image -->
+      <a id="prev">PrevImg-</button>
+      <a id="next">NextImg-</button>
+      
+      <!--  -->
+      <a id="rotbtn">Rotate_Right-</button>
+      <a id="rotbtn1">Rotate_Left-</button>
+
+      <!-- dropdown fild fore show images -->
+      <select id="imselect" onchange="myFunction()">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+      </select>
+
+      <!-- button for rotate image -->
+    </p>
+    <!-- image -->
+    <div class="slider">
+      <div class="box">
+        <img id="one" src="images/one.png" alt="one" class="slider-img" />
+      </div>
+    </div>
+    <!-- end image -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
